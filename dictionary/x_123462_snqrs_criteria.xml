@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Criteria" max_length="40" name="x_123462_snqrs_criteria" type="collection">
+        <element label="Description" max_length="300" name="description" type="string"/>
+        <element label="Level 0" max_length="80" name="level_0" type="string"/>
+        <element label="Level 1" max_length="80" name="level_1" type="string"/>
+        <element label="Level 2" max_length="80" name="level_2" type="string"/>
+        <element label="Level 3" max_length="80" name="level_3" type="string"/>
+        <element label="Level 4" max_length="80" name="level_4" type="string"/>
+        <element label="Name" max_length="20" name="name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Scores" max_length="40" name="x_123462_snqrs_scores" type="collection">
+        <element label="Criteria" max_length="32" name="criteria" reference="x_123462_snqrs_criteria" type="reference"/>
+        <element label="Evaluation" max_length="32" name="evaluation" reference="x_123462_snqrs_evaluation" type="reference"/>
+        <element label="Score" max_length="20" name="score" type="decimal"/>
+        <index name="index">
+            <element name="evaluation"/>
+        </index>
+        <index name="index2">
+            <element name="criteria"/>
+        </index>
+    </element>
+</database>
