@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Number</column_label>
+        <column_label>Evaluation Number</column_label>
         <comments/>
         <create_roles/>
         <default_value>javascript:global.getNextObjNumberPadded();</default_value>
@@ -54,15 +54,15 @@
         <sys_created_on>2017-07-20 16:50:59</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9b424ec20f000300e77d943be1050e1f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Number</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Evaluation Number</sys_name>
         <sys_package display_value="SNQRS" source="x_123462_snqrs">6e42ca820f000300e77d943be1050e69</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="SNQRS">6e42ca820f000300e77d943be1050e69</sys_scope>
         <sys_update_name>sys_dictionary_x_123462_snqrs_evaluation_number</sys_update_name>
         <sys_updated_by>ian_admin</sys_updated_by>
-        <sys_updated_on>2017-07-20 16:50:59</sys_updated_on>
+        <sys_updated_on>2017-07-20 17:45:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

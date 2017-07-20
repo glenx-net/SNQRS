@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Evaluation" max_length="40" name="x_123462_snqrs_evaluation" type="collection">
-        <element label="Assigned To" mandatory="true" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
-        <element label="Evaluated Task" mandatory="true" max_length="32" name="evaluated_task" reference="task" type="reference"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="3" default="Choice 1" label="Status" max_length="40" name="status" read_only="true" type="choice">
-            <choice>
-                <element label="Choice 1" sequence="0" value="Choice 1"/>
-                <element label="Choice 2" sequence="1" value="Choice 2"/>
-                <element label="Choice 3" sequence="2" value="Choice 3"/>
-            </choice>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Evaluated Task" max_length="32" name="evaluated_task" reference="task" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Evaluation Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
         </element>
         <index name="index">
             <element name="evaluated_task"/>
