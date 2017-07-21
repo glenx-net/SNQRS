@@ -5,15 +5,29 @@
             <element>12M.x_123462_snqrs_evaluation.x_123462_snqrs_scores.evaluation</element>
             <position>0</position>
             <sys_created_by>ian_admin</sys_created_by>
-            <sys_created_on>2017-07-20 17:25:14</sys_created_on>
-            <sys_id>812a820a0f000300e77d943be1050e3e</sys_id>
+            <sys_created_on>2017-07-21 02:19:29</sys_created_on>
+            <sys_id>8b64cc120f040300e77d943be1050e7c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Scores" display_value="Scores" name="x_123462_snqrs_evaluation" sys_domain="global" view="Default view">7ff886c60f000300e77d943be1050e4e</sys_ui_section>
             <sys_updated_by>ian_admin</sys_updated_by>
-            <sys_updated_on>2017-07-20 17:25:14</sys_updated_on>
+            <sys_updated_on>2017-07-21 02:19:29</sys_updated_on>
             <sys_user/>
             <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>1</position>
+            <sys_created_by>ian_admin</sys_created_by>
+            <sys_created_on>2017-07-21 02:19:29</sys_created_on>
+            <sys_id>0f64cc120f040300e77d943be1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Scores" display_value="Scores" name="x_123462_snqrs_evaluation" sys_domain="global" view="Default view">7ff886c60f000300e77d943be1050e4e</sys_ui_section>
+            <sys_updated_by>ian_admin</sys_updated_by>
+            <sys_updated_on>2017-07-21 02:19:29</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Scores</caption>
